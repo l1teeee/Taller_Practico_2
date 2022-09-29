@@ -1,0 +1,123 @@
+body{
+    
+    background-color: bisque;
+    margin: 0;
+}
+
+.formu h5{
+    text-align: center;
+    font-size: 25px;
+    padding: 3vw;
+    background-color: rgb(127, 219, 255);
+}
+
+.titulares h1{
+    font-size: 25px;
+}
+
+.titulares h2{
+    font-size: 18px;
+}
+
+.descrip h3{
+    font-size: 20px;
+}
+
+.descrip{
+
+}
+
+.princi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(223, 255, 248);
+    padding: 3vw;
+}
+
+.menu{
+    border-radius: 12px;
+    text-align: center;
+    width: 20vw;
+    background-color: aquamarine;
+    padding-bottom: 2vw;
+    
+
+}
+
+
+
+.adici{
+    background-color: rgb(255, 221, 205);
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    flex-wrap: wrap;
+}
+
+.produc{
+    margin: 2vw;
+    align-items: center;
+    background-color: rgb(199, 255, 236);
+    padding: 30px;
+    width: 18vw;
+    height: auto;
+    border-radius: 15px;
+}
+
+.produc h1{
+    font-size: 16px;
+}
+.produc h2{
+    font-size: 18px;
+}
+
+.produc .buton
+
+
+#cantEnsalada{
+    width: 8vw;
+}
+
+#cantpapaFrita{
+    width: 8vw;
+}
+
+#cantpiezaPolloGrande{
+    width: 8vw;
+}
+
+#cantpiezaPolloMediana{
+    width: 8vw;
+
+}
+
+#cantpiezaPolloPeque{
+    width: 8vw;
+}
+
+#cantbebidaGrande{
+    width: 8vw;
+}
+
+#cantbebidaMediana{
+    width: 8vw;
+
+}
+
+#cantbebidaPequeña{
+    width: 8vw;
+
+}
+
+#cantcafe{
+    width: 8vw;
+}
+
+#cantpostre{
+    width: 8vw;
+}
+
+.recibo{
+    width: 90%;
+}

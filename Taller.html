@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Practico 2</title>
+    <link type="text/css" rel="stylesheet" href="css/taller.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="formu">
+        <h5>
+            Restaurante
+        </h5>
+        <div class="princi">
+            <div class="menu">
+                <div class="combo">
+                    <div class="titulares">
+                        <h1>
+                            Super Combo
+                        </h1>
+                        <h2>
+                            $7.25
+                        </h2>
+                    </div>
+                    <div class="descrip">
+                        <h3>
+                            3 piezas de pollo
+                        </h3>
+                        <h3>
+                            Ensalada
+                        </h3>
+                        <h3>
+                            Papas frita
+                        </h3>
+                        <h3>
+                            Bebida grande
+                        </h3>
+                    </div>
+                    <div class="buton">
+                        <input type="radio" id="superCombo" name="combo" checked>
+                        <label for="superCombo"> Super combo</label><br>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="menu">
+                <div class="combo">
+                    <div class="titulares">
+                        <h1>
+                            Combo Personal
+                        </h1>
+                        <h2>
+                            $5.75
+                        </h2>
+                    </div>
+                    <div class="descrip">
+                        <h3>
+                            2 piezas de pollo
+                        </h3>
+                        <h3>
+                            Papas frita
+                        </h3>
+                        <h3>
+                            Bebida Mediana
+                        </h3>
+                    </div>
+                    <div class="buton">
+                        <input type="radio" id="comboPersonal" name="combo" >
+                        <label for="comboPersonal"> Combo personal</label><br>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="menu">
+                <div class="combo">
+                    <div class="titulares">
+                        <h1>
+                            Combo Infantil
+                        </h1>
+                        <h2>
+                            $3.50
+                        </h2>
+                    </div>
+                    <div class="descrip">
+                        <h3>
+                            1 pieza de pollo
+                        </h3>
+                        <h3>
+                            Papas frita
+                        </h3>
+                        <h3>
+                            Bebida pequeña
+                        </h3>
+                    </div>
+                    <div class="buton">
+                        <input type="radio" id="comboInfantil" name="combo" >
+                        <label for="comboInfantil"> Combo Infantil</label><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="adici">
+            <div class="produc">
+                <h1>Ensalada</h1>
+                <h2>$1.50</h2>
+                <div class="buton">
+                    <input type="checkbox" id="ensalada"  value="Bike">
+                    <label for="ensalada">Ensalada</label><br>
+
+                    <input type="number" id="cantEnsalada" disabled min="1" value="1" >
+                </div>
+            </div>
+            <div class="produc">
+                <h1>Papa frita</h1>
+                <h2>$1.25</h2>
+                <div class="buton">
+                    <input type="checkbox" id="papaFrita"  value="Bike">
+                    <label for="papaFrita">Papa Frita</label><br>
+                    <input type="number" id="cantpapaFrita" disabled min="1" value="1" >
+                </div>
+            </div>
+            <div class="produc">
+                <h1>Pieza de pollo grande</h1>
+                <h2>$1.75</h2>
+                <div class="buton">
+                    <input type="checkbox" id="piezaPolloGrande"  value="Bike">
+                    <label for="piezaPolloGrande"> Pieza de pollo grande</label><br>
+                    <input type="number" id="cantpiezaPolloGrande" disabled min="1" value="1" >
+                </div>
+            </div>
+
+            <div class="produc">
+                <h1>Pieza de pollo mediana</h1>
+                <h2>$1.50</h2>
+                <div class="buton">
+                    <input type="checkbox" id="piezaPolloMediana"  value="Bike">
+                    <label for="piezaPolloMediana"> Pieza de pollo mediana</label><br>
+                    <input type="number" id="cantpiezaPolloMediana" disabled min="1" value="1" >
+
+                </div>
+            </div>
+            <div class="produc">
+                <h1>Pieza de pollo pequeña</h1>
+                <h2>$1.25</h2>
+                <div class="buton">
+                    <input type="checkbox" id="piezaPolloPeque"  value="Bike">
+                    <label for="piezaPolloPeque"> Pieza de pollo pequeña</label><br>
+                    <input type="number" id="cantpiezaPolloPeque" disabled min="1" value="1" >
+
+                </div>
+            </div>
+
+            <div class="produc">
+                <h1>Bebida grande</h1>
+                <h2>$1.50</h2>
+                <div class="buton">
+                    <input type="checkbox" id="bebidaGrande"  value="Bike">
+                    <label for="bebidaGrande"> Bebida grande</label><br>
+                    <input type="number" id="cantbebidaGrande" disabled min="1" value="1" >
+
+                </div>
+            </div>
+            <div class="produc">
+                <h1>Bebida mediana</h1>
+                <h2>$1.25</h2>
+                <div class="buton">
+                    <input type="checkbox" id="bebidaMediana"  value="Bike">
+                    <label for="bebidaMediana"> Bebida mediana
+                    </label><br>
+                    <input type="number" id="cantbebidaMediana" disabled min="1" value="1" >
+                </div>
+            </div>
+            <div class="produc">
+                <h1>Bebida pequeña</h1>
+                <h2>$1.50</h2>
+                <div class="buton">
+                    <input type="checkbox" id="bebidaPeque"  value="Bike">
+                    <label for="bebidaPeque"> Bebida pequeña
+                    </label><br>
+                    <input type="number" id="cantbebidaPequeña" disabled min="1" value="1" >
+
+                </div>
+            </div>
+            <div class="produc">
+                <h1>Café</h1>
+                <h2>$0.50</h2>
+                <div class="buton">
+                    <input type="checkbox" id="cafe"  value="Bike">
+                    <label for="cafe"> Café</label><br>
+                    <input type="number" id="cantcafe" disabled min="1" value="1" >
+
+                </div>
+            </div>
+            <div class="produc">
+                <h1>Postre</h1>
+                <h2>$1.25</h2>
+                <div class="buton">
+                    <input type="checkbox" id="postre"  value="Bike">
+                    <label for="postre"> Postre</label><br>
+                    <input type="number" id="cantpostre" disabled min="1" value="1" >
+
+                </div>
+            </div>
+        </div>
+
+        <div class="princi">
+
+            <button type="button" id="activarComentario">Agregar comentario </button>
+
+            <textarea name="comentario" id="comentario" disabled cols="30" rows="10"></textarea>
+
+            <button type="button"  id="guardarComentario" hidden>Guardar comentario </button>
+
+            <button type="button"  id="generarFactura" >Generar Factura </button>
+
+
+        </div>
+        
+        
+    </div>
+    <center>
+
+        <div class="recibo">
+            <h1>Factura</h1>
+    
+            <div class="resultado">
+                <div class="row">
+                    <hr>
+                    <h1 class="text-center">Lista de venta</h1>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Cantidad </th>
+                                <th>Precio</th>
+                                <th>SubTotal</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody id="tabla">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="recibo">
+            <h1>Comentario:</h1>
+            <h2 id="commentTxt"></h2>
+
+        
+    
+        </div>
+    </center>
+
+    <script src="js/taller.js"></script>
+</body>
+</html>
